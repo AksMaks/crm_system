@@ -1,0 +1,24 @@
+.Head {
+    display: flex;
+    height: 50px; 
+    background: rgba(23, 26, 43, 1);
+    color: rgb(255, 255, 255);
+}
+.Head a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.Head a:hover{
+    color: rgba(255, 182, 41, 1);
+}
+
+.Head div:first-child{
+    margin-left: 20px;
+    margin-right: auto;
+}
+.Head div{
+    margin: 0px 20px;
+    line-height: 50px;
+}

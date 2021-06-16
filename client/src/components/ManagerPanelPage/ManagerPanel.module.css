@@ -1,0 +1,5 @@
+.ManagerPanel{
+    display: flex;
+    width: 100%;
+    background: rgba(23, 26, 43, 1);
+}

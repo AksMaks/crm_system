@@ -1,0 +1,15 @@
+.Notification{
+    position: absolute;
+    right: 50px;
+    width: 400px;
+    z-index: 50;
+}
+.Message{
+    height: 50px;
+    width: 400px;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    line-height: 50px;
+    cursor: pointer;
+}

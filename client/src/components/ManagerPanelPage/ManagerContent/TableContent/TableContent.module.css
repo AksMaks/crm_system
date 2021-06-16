@@ -1,0 +1,181 @@
+/*
+Стиль шапки
+*/
+
+.TableContent{
+    font-family: "OpenSans";
+    background: rgba(250, 250, 250, 1);
+}
+.Head{
+    height: 90px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+}
+.Head .Title{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    width: 400px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #171A2B;
+}
+.Head .ToolsBal{
+    position: absolute;
+    display: inline-flex;
+    width: 300px;
+    height: 41px;
+    right: 200px;
+    top: 34px;
+}
+.Head .ToolsBal .Tool{
+    cursor: pointer;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #8F9DA1;
+}
+.Head .ToolsBal .Tool span{
+    padding: 10px;
+    border-radius: 10px;
+}
+.Head .ToolsBal .Tool span:hover{
+    background-color: #FFB629;
+    color: #FFFFFF;
+}
+.Head .ToolsBal .Tool .VisibilityList{
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+    width: 200px;
+    position: absolute;
+    margin: 0px 20px 0px 0px;
+}
+.VisibilityList label{
+    cursor: pointer;
+    display: block;
+    margin-left: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.Head .AddButton {
+    position: absolute;
+    width: 137px;
+    height: 41px;
+    right: 110px;
+    top: 25px;
+    cursor: pointer;
+    
+    background: #FFB629;
+    border-radius: 8px;
+    
+    text-align: center;
+}
+.Head a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+/*
+Стиль для контента
+*/
+.Content {
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 20px 0px 0px 0px;
+    padding: 20px 60px 0px 0px;
+}
+
+.Search{
+    margin: 20px 0px 0px 60px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display:inline-flex;
+    width: 180px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+}
+.Search img{
+    margin-left: 20px;;
+}
+.Search input{
+    border: none;
+    margin-left: 10px;
+    width: 120px;
+    outline:none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #8F9DA1;
+}
+
+.Table{
+    margin: 20px 0px 0px 20px;
+    border-collapse: collapse;
+    background: rgb(255, 255, 255);
+    
+    padding-right: 50px;
+    overflow-x: auto;
+}
+.Table th{
+    position: relative;
+    padding: 10px 10px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #8F9DA2;
+    text-align: left;
+    width: 100px;
+}
+.Table td{
+    padding: 10px 10px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: left;
+    color: #171A2B;
+    border-top: 1px solid #E5E5E5;
+    width: 100px;
+}
+.Table tr th:first-child{
+    padding-left: 40px;
+}
+.Table tr td:first-child{
+    padding-left: 40px;
+}
+.Table .ImageProduct{
+    height: 50px;
+}
+.RowEnd{
+    display: inline-flex;
+    position: relative;
+    right: 0px;
+}
+.RowEnd div{
+    margin: 5px 10px 0px 10px;
+    cursor: pointer;
+}

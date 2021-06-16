@@ -1,0 +1,240 @@
+.InputPanel{
+    font-family: "OpenSans";
+    position: relative;
+    background: rgba(250, 250, 250, 1);
+}
+/*
+стили для шапки
+*/
+.Head{
+    width: 100%;
+    display: inline-flex;
+    height: 90px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+}
+.Head .Back{
+    position: absolute;
+    left: 90px;
+    top: 30px;
+    height: 25px;
+    width: 70px;;
+    display: inline-flex;
+    line-height: 25px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.Head .Back:hover{
+    background-color: #c7c7c7;
+}
+.Head .Back span{
+    margin-left: 10px;
+}
+
+.Title{
+    margin: 40px 0px 0px 90px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #171A2B;
+}
+/*
+стили для формы
+*/
+.Form{
+    margin: 20px 0px 0px 90px;
+    overflow-y: auto;
+    overflow-x: auto;
+    max-height: 450px;
+}
+.FormItem{
+    margin-top: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 42px;
+    color: #8F9DA1;
+}
+.FormItem label{
+    display: inline-flex;
+}
+.FormItem span{
+    cursor: pointer;
+    width: 160px;
+}
+.FormItem input{
+    width: 250px;
+    padding: 0px 10px 0px 10px;
+    height: 40px;
+    border: 1px solid #FFB629;
+    border-radius: 8px;
+    outline: none;
+}
+.FormItem select{
+    width: 272px;
+    padding: 0px 10px 0px 10px;
+    height: 40px;
+    border: 1px solid #FFB629;
+    border-radius: 8px;
+    outline: none;
+}
+.FormItem textarea{
+    width: 250px;
+    resize: vertical;
+    padding: 10px 10px 0px 10px;
+    height: 40px;
+    border: 1px solid #FFB629;
+    border-radius: 8px;
+    outline: none;
+}
+
+/*
+стили таблицы состава, в форме
+*/
+.VisibilityList{
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+    width: 200px;
+    position: absolute;
+    margin: 0px 20px 0px 0px;
+}
+.VisibilityList label{
+    cursor: pointer;
+    display: block;
+    margin-left: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.Composition{
+    
+}
+.Composition .CompositionTitle{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #171A2B;
+}
+.Composition th, td{
+    padding: 0px 10px 0px 0px;
+    text-align: left;
+    color: #171A2B;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+/*
+стили для основный кнопок формы
+*/
+.FormButtons{
+    margin: 20px 0px 0px 200px;
+    padding-bottom: 50px;
+    display: flex;
+    height: 40px;
+}
+.FormButtons div{
+    margin: 0px 10px;
+}
+.FormButtons .Submit{
+    background: #FFB629;
+    border-radius: 8px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    outline: none;
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+}
+.FormButtons .Reset{
+    cursor: pointer;
+    height: 40px;
+}
+
+/*
+Стиль для попапа
+*/
+.Popup {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgba(23, 26, 43, 0.8);
+    z-index: 1000;
+    
+    overflow-y: auto;
+}
+.PopupContent{
+    position: absolute;
+    width: 500px;
+    top: 25%;
+    left: 50%;
+    margin-left: -250px;
+    background: rgb(255, 255, 255);
+}
+.PopupContent .FormItemMessage{
+    height: 42px;
+    
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 42px;
+    color: #8F9DA1;
+}
+.PopupContent .FormItemMessageTitle{
+    display: inline-flex;
+    margin-left: 20px;
+    width: 160px;
+}
+.PopupContent .FormItemMessageValue{
+    
+    display: inline-flex;
+    margin-left: 10px;
+}
+.PopupContent .FormItem{
+    padding-left: 20px;
+}
+.PopupHead{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 50px;
+    background: rgba(23, 26, 43, 1);
+    color: rgba(255, 255, 255, 1);
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 70px;
+    text-align: center;
+}
+.PopupClose{
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    background: #FFB629;
+    border-radius: 8px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 40px;
+    outline: none;
+    left: 312px;
+    margin: 30px 0px;
+    height: 40px;
+    width: 140px;
+}

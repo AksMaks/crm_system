@@ -1,0 +1,114 @@
+.NavBar{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background: rgba(23, 26, 43, 1);
+    font-family: "OpenSans";
+    min-width: 250px;
+    height: 100%;
+    overflow-y: auto;
+}
+.NavBar::-webkit-scrollbar {
+  width: 0;
+}
+/*
+Стиль для верхней шапки
+*/
+.CommonData{
+    text-align: center;
+}
+.CommonData div{
+    margin: 10px 0px;
+}
+/*
+Стиль для дерева ссылок
+*/
+.LinkGroups{
+    margin: 25px 0px 25px 30px;
+    
+    width: 200px;
+}
+.LinkGroups .Title{
+    cursor: pointer;
+    display: inline-flex;
+}
+.LinkGroups .Title:hover{
+    color: rgba(255, 182, 41, 1);
+}
+.LinkGroups .Title:hover .Icon{
+    filter: invert(20%) sepia(34%) saturate(1105%) hue-rotate(339deg) brightness(102%) contrast(101%);
+}
+.LinkGroups .Title .Icon{
+    width: 20px;
+    margin-right: 10px;
+}
+.LinkGroups .Title .Text{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 2px 0px;
+}
+
+.LinkGroups ul{
+    list-style: none;
+    padding: 0;
+}
+
+.LinkGroups ul li{
+    margin: 0px 0px 10px 30px;
+}
+
+.LinkGroups .Link{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.LinkGroups .Link:hover{
+    color: rgba(255, 182, 41, 1);
+}
+.LinkGroups .activeLink{
+    color: rgba(255, 182, 41, 1);
+}
+/*
+Стиль подвала
+*/
+.Footer{
+    width: 100%;
+}
+.Footer .User{
+    float: left;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.Footer .Exit{
+    cursor: pointer;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 5px;
+    
+}
+.Footer .Exit:hover{
+    color: rgb(255, 0, 0);
+}
+
+

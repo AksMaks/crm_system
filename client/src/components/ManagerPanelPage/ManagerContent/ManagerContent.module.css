@@ -1,0 +1,7 @@
+.ManagerContent{
+    position: relative;
+    width: calc(100% - 250px);
+    min-width: 800px;
+    background: rgba(23, 26, 43, 1);
+    left: 250px;
+}

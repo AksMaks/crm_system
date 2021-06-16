@@ -1,0 +1,122 @@
+/*
+Дизайн формы, ввода данных, для входа
+*/
+.Panel{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    width: 500px;
+    background: #FFFFFF;
+    box-shadow: -15px -15px 18px rgba(206, 206, 206, 0.18), 15px 15px 18px rgba(206, 206, 206, 0.18);
+    border-radius: 8px;
+}
+.Title{
+    padding: 20px 30px;
+    text-align: center;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 48px;
+    color: #171A2B;
+}
+.ItemForm{
+    margin: 20px 60px;;
+}
+.ItemForm span{
+    font-size: 14px;
+}
+.ItemForm input{
+    padding-left: 20px;
+    margin: 10px;
+    font-size: 14px;
+    text-decoration-color: #E5E5E5;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.ItemForm:last-child{
+    padding-bottom: 20px;
+    display: flex;
+    height: 40px;
+}
+.ItemForm:last-child a{
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ItemForm:last-child button {
+    position: absolute;
+    cursor: pointer;
+    right: 60px;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background: #FFB629;
+    border-radius: 8px
+}
+/*
+Дизайн панели, для выбора филиала в организации
+*/
+.MoveForm{
+    position: relative;
+    text-align: center;
+}
+.MoveForm a{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 41px;
+    /* identical to box height */
+    text-decoration: none;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.Select{
+    width: 250px;
+    height: 35px;
+
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    border-radius: 8px;
+    
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.Link{
+    width: 250px;
+    height: 41px;
+    margin: 14px 0px 14px 125px;
+
+    background: #FFB629;
+    border-radius: 8px;
+    
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 41px;
+    /* identical to box height */
+    text-decoration: none;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.Exit{
+    color: #000000 !important;
+    text-decoration: underline !important;
+}
